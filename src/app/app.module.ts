@@ -1,3 +1,5 @@
+import { PrincipalComponent } from './principal/principal.component';
+import { ContatoComponentComponent } from './contato/contato-component.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -6,7 +8,9 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContatoComponentComponent,
+    PrincipalComponent
   ],
   imports: [
     BrowserModule,

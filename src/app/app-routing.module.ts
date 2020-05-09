@@ -1,3 +1,4 @@
+import { EmConstrucaoComponent } from './construcao/emConstrucao.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { ContatoComponentComponent } from './contato/contato-component.component';
 import { AppComponent } from './app.component';
@@ -6,8 +7,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 const routes: Routes = [
-  { path: 'principal', component: PrincipalComponent },
-  { path: 'contato', component: ContatoComponentComponent },
+  { path: 'principal', component: EmConstrucaoComponent },
+  { path: 'contato', component: EmConstrucaoComponent },
   { path: '', redirectTo: '/principal', pathMatch: 'full' }
 ];
 

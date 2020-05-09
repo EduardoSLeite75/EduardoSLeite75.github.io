@@ -1,3 +1,4 @@
+import { EmConstrucaoComponent } from './construcao/emConstrucao.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { ContatoComponentComponent } from './contato/contato-component.component';
 import { BrowserModule } from '@angular/platform-browser';
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
   declarations: [
     AppComponent,
     ContatoComponentComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    EmConstrucaoComponent
   ],
   imports: [
     BrowserModule,

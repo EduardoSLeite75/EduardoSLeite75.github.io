@@ -26,6 +26,7 @@ a:active {
 .site-header {
   padding: 1rem 0;
   text-align: center;
+  position: sticky;
 }
 
 .site-header h1 {
@@ -45,6 +46,11 @@ a:active {
 .site-header h1 span {
   color: #18ECAD;
 }
+
+.site-header h5 {
+  color: #18ecad;
+}
+
 
 .site-header nav ul {
   margin: 0;
@@ -184,7 +190,14 @@ a:active {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1170px;
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 100rem;
     margin: 0 auto;
   }
 }
@@ -195,9 +208,22 @@ a:active {
   }
 }
 
+@media (max-width: 599px) {
+  .sticky-top .container {
+    margin: 0;
+    background-color: #ffff;
+  }
+}
+
 @media (min-width: 600px) {
+
+  .sticky-top {
+    background-color: #ffff;
+  }
+
   .site-header {
     text-align: left;
+
   }
 
   .site-header h1 {
@@ -216,7 +242,9 @@ a:active {
   }
 
   .site-header {
-    position: relative;
+    position: sticky;
+    width: 100%;
+    background-color: #ffff;
   }
 
   .selling-points span {

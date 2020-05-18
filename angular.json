@@ -6,7 +6,7 @@
     "EduardoSLeite75.github.io": {
       "projectType": "application",
       "schematics": {},
-      "root": "",
+      "root": "EduardoSLeite75.github.io",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
@@ -14,9 +14,9 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/p-consultorio",
-            "index": "src/index.html",
-            "main": "src/main.ts",
-            "polyfills": "src/polyfills.ts",
+            "index": "index.html",
+            "main": "main.ts",
+            "polyfills": "polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": false,
             "assets": [

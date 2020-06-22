@@ -1,0 +1,348 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+  font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.313em;
+  color: #474f55;
+}
+
+ul li {
+  color: red;
+}
+
+a,
+a:link,
+a:visited {
+  color: #03ab8d;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #3084bf;
+  text-decoration: none;
+}
+
+.site-header {
+  padding: 1rem 0;
+  text-align: center;
+  position: sticky;
+}
+
+.site-header h1 {
+  margin: 0 0 1rem;
+  color: #18ECAD;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.2rem;
+  font-weight: normal;
+}
+
+.site-header h1 img {
+  height: 4.5rem;
+  vertical-align: text-bottom;
+  margin-right: 0.6rem;
+}
+
+.site-header h1 span {
+  color: #18ECAD;
+}
+
+.site-header h5 {
+  color: #18ecad;
+}
+
+
+.site-header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.site-header nav ul li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.hero-image img {
+  width: 25%;
+  background-color: #18ECAD;
+  padding: 4rem 0;
+}
+
+.map-image {
+  width: 50%;
+  background-color: #18ECAD;
+  padding: 4rem 0;
+}
+
+.selling-points span {
+  float: left;
+  font-size: 3.2rem;
+  color: #18ECAD;
+}
+
+.selling-points h2 {
+  color: #18ECAD;
+  font-size: 1rem;
+}
+
+.selling-points footer {
+  text-align: right;
+}
+
+.selling-points h2,
+.selling-points p {
+  margin: 0 0 0.5rem 5rem;
+}
+
+.selling-points article {
+  padding: 1.7rem;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.selling-points article:last-of-type {
+  border: none;
+}
+
+.welcome {
+  background-color: #18ECAD;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.welcome h3 {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.welcome img {
+  width: 100%;
+}
+
+.welcome .right {
+  padding: 1rem 2rem;
+}
+
+.quotes h2 {
+  margin-bottom: 2rem;
+  color: #18ECAD;
+  text-align: center;
+}
+
+.quotes blockquote {
+  margin: 1rem;
+  border: 1px dashed #cdac8c;
+  padding: 1rem 1rem 0.5rem;
+  font-style: italic;
+}
+
+.quotes blockquote cite {
+  display: block;
+  text-align: right;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.quotes {
+  padding: 1rem 0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.site-footer ul {
+  margin: 0 0 0.5rem;
+  padding: 0;
+  list-style: none;
+  font-size: 2.6rem;
+}
+
+.site-footer ul li {
+  display: inline-block;
+}
+
+.site-footer {
+  background-color: #18ECAD;
+  padding: 1rem 0;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.container {
+  margin: 0 15px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 599px) {
+  .container {
+    margin: 0;
+  }
+}
+
+@media (max-width: 599px) {
+  .sticky-top .container {
+    margin: 0;
+    background-color: #ffff;
+  }
+}
+
+@media (min-width: 600px) {
+
+  .sticky-top {
+    background-color: #ffff;
+  }
+
+  .site-header {
+    text-align: left;
+
+  }
+
+  .site-header h1 {
+    margin: 0;
+  }
+
+  .site-header h1 img {
+    height: 2.8125rem;
+  }
+
+  .site-header nav {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    line-height: 2.8125rem;
+  }
+
+  .site-header {
+    position: sticky;
+    width: 100%;
+    background-color: #ffff;
+  }
+
+  .selling-points span {
+    font-size: 2.5rem;
+    float: none;
+    display: block;
+    margin-bottom: 0.8rem;
+  }
+
+  .selling-points h2 {
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-left: 0;
+  }
+
+  .selling-points p {
+    margin-left: 0;
+  }
+
+  .selling-points {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 90px 0;
+  }
+
+  .selling-points article {
+    flex-basis: 34%;
+    margin: 1.5rem 8%;
+    padding: 0;
+    border: 0 none;
+    text-align: center;
+  }
+
+  .welcome {
+    padding: 40px 0;
+  }
+
+  .welcome .left {
+    float: left;
+    width: 45%;
+  }
+
+  .welcome .right {
+    float: right;
+    width: 45%;
+  }
+
+  .welcome img {
+    width: 100%;
+  }
+
+  .welcome:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .quotes .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .quotes blockquote {
+    flex-basis: 48%;
+    margin: 0.75rem 1%;
+    border: 1px dashed #cdac8c;
+    padding: 1em 1em 0.5em;
+    font-style: italic;
+    box-sizing: border-box;
+  }
+
+  .quotes {
+    padding: 72px 0;
+  }
+
+  .site-footer .container {
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .site-footer small {
+    order: 1;
+  }
+
+  .site-footer ul {
+    order: 2;
+  }
+}
+
+@media (min-width: 960px) {
+  .selling-points article {
+    flex-basis: 21%;
+    margin: 1.5rem 2%;
+  }
+
+  .quotes blockquote {
+    flex: 1;
+  }
+}

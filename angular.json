@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "eduardosleite75": {
+        "p-consultorio": {
             "projectType": "application",
             "schematics": {},
             "root": "",
@@ -122,5 +122,5 @@
             }
         }
     },
-    "defaultProject": "eduardosleite75"
+    "defaultProject": "p-consultorio"
 }

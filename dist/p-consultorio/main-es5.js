@@ -51,7 +51,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "  <header>\n  </header>\n\n  <body>\n    <div class=\"container site-header row fixed-up sticky-top\" style=\"width: 100%; background-color: #ffff;\">\n      <div class=\"col-xs-8 col-sm-6 col-md-8\">\n        <h1>\n          <img src=\"assets/images/logo.png\" alt=\"Dra.Elisabete Lopes Guimarães\" />\n          <span>Dra.Elisabete Lopes Guimarães</span>\n          <em class=\"fab fa-whatsapp-square\"> 99952-8228</em>\n        </h1>\n      </div>\n      <div class=\"col-xs-4 col-md-4\">\n        <nav>\n          <ul>\n            <li><a href=\"/principal\">Home</a></li>\n            <li><a routerLink=\"/contato\">Contato</a></li>\n          </ul>\n        </nav>\n      </div>\n\n    </div>\n\n    <router-outlet></router-outlet>\n  </body>\n";
+    __webpack_exports__["default"] = "  <header>\n  </header>\n\n  <body>\n    <div class=\"container site-header row fixed-up sticky-top\" style=\"width: 100%; background-color: #ffff;\">\n      <div class=\"col-xs-8 col-sm-6 col-md-8\">\n        <h1>\n          <img src=\"assets/images/logo.png\" alt=\"Dra.Elisabete Lopes Guimarães\" />\n          <span>Dra.Elisabete Lopes Guimarães teste</span>\n          <em class=\"fab fa-whatsapp-square\"> 99952-8228</em>\n        </h1>\n      </div>\n      <div class=\"col-xs-4 col-md-4\">\n        <nav>\n          <ul>\n            <li><a href=\"/principal\">Home</a></li>\n            <li><a routerLink=\"/contato\">Contato</a></li>\n          </ul>\n        </nav>\n      </div>\n\n    </div>\n    <!-- <app-principal-component>\n    </app-principal-component> -->\n    <router-outlet></router-outlet>\n  </body>";
     /***/
   },
 
@@ -121,7 +121,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     !*** ./node_modules/tslib/tslib.es6.js ***!
     \*****************************************/
 
-  /*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __exportStar, __values, __read, __spread, __spreadArrays, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault, __classPrivateFieldGet, __classPrivateFieldSet */
+  /*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __createBinding, __exportStar, __values, __read, __spread, __spreadArrays, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault, __classPrivateFieldGet, __classPrivateFieldSet */
 
   /***/
   function node_modulesTslibTslibEs6Js(module, __webpack_exports__, __webpack_require__) {
@@ -175,6 +175,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     __webpack_require__.d(__webpack_exports__, "__generator", function () {
       return __generator;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__createBinding", function () {
+      return __createBinding;
     });
     /* harmony export (binding) */
 
@@ -261,18 +267,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return __classPrivateFieldSet;
     });
     /*! *****************************************************************************
-    Copyright (c) Microsoft Corporation. All rights reserved.
-    Licensed under the Apache License, Version 2.0 (the "License"); you may not use
-    this file except in compliance with the License. You may obtain a copy of the
-    License at http://www.apache.org/licenses/LICENSE-2.0
+    Copyright (c) Microsoft Corporation.
     
-    THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-    KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
-    WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
-    MERCHANTABLITY OR NON-INFRINGEMENT.
+    Permission to use, copy, modify, and/or distribute this software for any
+    purpose with or without fee is hereby granted.
     
-    See the Apache Version 2.0 License for specific language governing permissions
-    and limitations under the License.
+    THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+    REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+    AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+    INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+    LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+    OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+    PERFORMANCE OF THIS SOFTWARE.
     ***************************************************************************** */
 
     /* global Reflect, Promise */
@@ -494,9 +500,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
+    function __createBinding(o, m, k, k2) {
+      if (k2 === undefined) k2 = k;
+      o[k2] = m[k];
+    }
+
     function __exportStar(m, exports) {
       for (var p in m) {
-        if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+        if (p !== "default" && !exports.hasOwnProperty(p)) exports[p] = m[p];
       }
     }
 
@@ -736,28 +747,34 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _construcao_emConstrucao_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! ./construcao/emConstrucao.component */
-    "./src/app/construcao/emConstrucao.component.ts");
+    var _principal_principal_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./principal/principal.component */
+    "./src/app/principal/principal.component.ts");
     /* harmony import */
 
 
-    var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var _contato_contato_component_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ./contato/contato-component.component */
+    "./src/app/contato/contato-component.component.ts");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/fesm2015/core.js");
     /* harmony import */
 
 
-    var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! @angular/router */
     "./node_modules/@angular/router/fesm2015/router.js");
 
     var routes = [{
       path: 'principal',
-      component: _construcao_emConstrucao_component__WEBPACK_IMPORTED_MODULE_1__["EmConstrucaoComponent"]
+      component: _principal_principal_component__WEBPACK_IMPORTED_MODULE_1__["PrincipalComponent"]
     }, {
       path: 'contato',
-      component: _construcao_emConstrucao_component__WEBPACK_IMPORTED_MODULE_1__["EmConstrucaoComponent"]
+      component: _contato_contato_component_component__WEBPACK_IMPORTED_MODULE_2__["ContatoComponentComponent"]
     }, {
       path: '',
       redirectTo: '/principal',
@@ -768,9 +785,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, AppRoutingModule);
     };
 
-    AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      imports: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(routes)],
-      exports: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"]]
+    AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
+      imports: [_angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forRoot(routes)],
+      exports: [_angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"]]
     })], AppRoutingModule);
     /***/
   },

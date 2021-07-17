@@ -7,8 +7,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 const routes: Routes = [
-  { path: 'principal', component: EmConstrucaoComponent },
-  { path: 'contato', component: EmConstrucaoComponent },
+  { path: 'principal', component: PrincipalComponent },
+  { path: 'contato', component: ContatoComponentComponent },
   { path: '', redirectTo: '/principal', pathMatch: 'full' }
 ];
 

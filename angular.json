@@ -122,5 +122,14 @@
             }
         }
     },
-    "defaultProject": "p-consultorio"
+    "defaultProject": "p-consultorio",
+    "schematics": {
+    "@schematics/angular:component": {
+      "prefix": "app",
+      "style": "css"
+    },
+    "@schematics/angular:directive": {
+      "prefix": "app"
+    }
+  }
 }

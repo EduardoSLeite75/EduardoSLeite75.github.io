@@ -13,12 +13,12 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist",
+                        "outputPath": "dist/p-consultorio",
                         "index": "src/index.html",
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
                         "tsConfig": "src/tsconfig.app.json",
-                        "aot": false,
+                        "aot": true,
                         "assets": [
                             "src/favicon.ico",
                             "src/assets"
@@ -124,12 +124,12 @@
     },
     "defaultProject": "p-consultorio",
     "schematics": {
-    "@schematics/angular:component": {
-      "prefix": "app",
-      "style": "css"
-    },
-    "@schematics/angular:directive": {
-      "prefix": "app"
+        "@schematics/angular:component": {
+            "prefix": "app",
+            "style": "css"
+        },
+        "@schematics/angular:directive": {
+            "prefix": "app"
+        }
     }
-  }
 }
